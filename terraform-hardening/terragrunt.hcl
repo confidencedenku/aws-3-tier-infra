@@ -27,7 +27,7 @@ inputs = {
   enable_vpc_flow_logs     = true
   flow_logs_retention_days = 90
   gateway_vpc_endpoints    = ["s3", "dynamodb"]
-  interface_vpc_endpoints  = ["ecr.api", "ecr.dkr", "kms", "logs", "monitoring", "secretsmanager", "ssm", "ssmmessages", "ec2messages", "sts"]
+  interface_vpc_endpoints  = ["ecr.api", "ecr.dkr", "kms", "logs", "monitoring", "secretsmanager", "ssm", "ssmmessages", "sts"]
 
   route53_zone_id       = "HARDENING_ROUTE53_ZONE_ID"
   application_fqdn     = "HARDENING_APP_FQDN"
